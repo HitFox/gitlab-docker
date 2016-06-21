@@ -11,4 +11,5 @@ aws s3 cp $CONFIG_TAR s3://git.finleap.com
 # delete config tars older than 7 days
 find ./*.tar -mtime +7 -type f -delete
 
-# TODO dead man snitch call to check in this worker
+# say hello to dead man snitch
+curl https://nosnch.in/e8ada076e2
